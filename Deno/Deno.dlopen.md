@@ -37,4 +37,6 @@ deno run --allow-ffi --unstable ffi.ts
 # ハマりやすいポイント
 
 * `--allow-ffi --unstable`が必須
-	* 無いと意味不明なえ
+	* 無いと意味不明なエラーが起きる
+* 任意型
+	* `{struct: ["i32","i32]}`などどする
