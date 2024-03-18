@@ -10,3 +10,7 @@
 	- 参考になる､､､かな?
 - https://github.com/llvm/llvm-project/blob/main/mlir/lib/Target/Cpp/TranslateRegistration.cpp
 	- レジスタ登録部分
+	- TranslateFromMLIRRegistrationを使うらしい
+		- 第一､第二引数は(コマンドライン上のオプション名,説明)
+		- 第三引数はMLIR上のトップの命令(ModuleOpっぽい)に対して実行される関数
+		- 第四引数
