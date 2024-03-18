@@ -6,4 +6,6 @@
 * 第二引数が名前空間(?)
 # add_mlir_doc(tblgen_file_name,doc_file_name,doc_directory,(auguments))
 - そのまま
-- mlir_docターゲットができて､それをビルドするとbuild/docに
+- mlir_docターゲットができて､それをビルドするとbuild/docにドキュメントができる
+- 生成に使ってるのはHugo?らしい
+- augumentsは[これらしい](https://llvm.org/docs/CommandGuide/tblgen.html#mlir-tblgen-options)
