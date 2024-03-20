@@ -8,4 +8,4 @@
 - そのまま
 - mlir_docターゲットができて､それをビルドするとbuild/docにドキュメントができる
 - 生成に使ってるのはHugo?らしい
-- augumentsは[これらしい](https://llvm.org/docs/CommandGuide/tblgen.html#mlir-tblgen-options)
+- augumentsは[これらしい](https://llvm.org/docs/CommandGuide/tblgen.html#mlir-tblgen-options)(~docとかのやつをつける)
