@@ -9,3 +9,7 @@
 - mlir_docターゲットができて､それをビルドするとbuild/docにドキュメントができる
 - 生成に使ってるのはHugo?らしい
 - augumentsは[これらしい](https://llvm.org/docs/CommandGuide/tblgen.html#mlir-tblgen-options)(~docとかのやつをつける)
+# 注意点
+- 使うには`cmake_minimum_required(VERSION 3.20.0)`が必要
+	- ないとエラーが出る
+- tblgenの`include`では`include_`
