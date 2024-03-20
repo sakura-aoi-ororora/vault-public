@@ -12,4 +12,4 @@
 # 注意点
 - 使うには`cmake_minimum_required(VERSION 3.20.0)`が必要
 	- ないとエラーが出る
-- tblgenの`include`では`include_`
+- tblgenの`include`では`include_directories()`の指定から持ってくる
